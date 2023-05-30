@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle</title>
+</head>
+<body>
+    <script>
+        function Rectangle(x1,y1,x2,y2){
+            this.topleftX=x1;
+            this.topleftY=y1;
+            this.bottomrightX=x2;
+            this.bottomrightY=y2;
+            this.height=Math.abs(x1-x2);
+            this.width=Math.abs(y1-y2);
+            this.getArea=findArea;
+            this.getPerimeter=findPerimeter;
+        }
+        function findArea(){
+            return (this.height*this.width);
+        }
+        function findPerimeter(){
+            return 2*(this.height+this.width);
+        }
+        var c=new Rectangle(0,4,5,0);
+        document.write("The area of the rectangle is :- "+c.getArea()+"<br>");
+        document.write("The Perimeter of the rectangle is :- "+c.getPerimeter());
+    </script>
+</body>
+</html>

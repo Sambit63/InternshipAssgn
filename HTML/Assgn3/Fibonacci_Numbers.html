@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fibonacci Numbers</title>
+  </head>
+  <body>
+    <h1>Fibonacci Series</h1>
+  
+    <label for="limit">Enter the limit:</label>
+    <input type="number" id="limit"><br>
+    
+    <button onclick="generateFibonacci()">Generate Fibonacci Series</button>
+    
+    <p id="result"></p>
+    <script>
+      function generateFibonacci() {
+        var limit = parseInt(document.getElementById('limit').value);
+        var fibonacciSeries = [0, 1];
+  
+        for (var i = 2; i < limit; i++) {
+          var nextNumber = fibonacciSeries[i - 1] + fibonacciSeries[i - 2];
+          fibonacciSeries.push(nextNumber);
+        }
+  
+        var result = document.getElementById('result').innerHTML='Fibonacci Series: ' + fibonacciSeries.join(', ');;
+        
+      }
+    </script>
+  </body>
+</html>

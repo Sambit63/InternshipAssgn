@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "ExternalDTD.dtd">
+<students>
+  <student>
+    <sic>20becd13</sic>
+    <name>Sambit</name>
+    <branch>ECE</branch>
+  </student>
+  <student>
+    <sic>20becd15</sic>
+    <name>Pikun</name>
+    <branch>CSE</branch>
+  </student>
+</students>

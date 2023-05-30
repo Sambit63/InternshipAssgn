@@ -1,0 +1,7 @@
+<!DOCTYPE students [
+<!ELEMENT students (student+)>
+<!ELEMENT student (sic,name,branch)>
+<!ELEMENT sic (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+]>

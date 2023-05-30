@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AreaPeri</title>
+</head>
+<body>
+    <script>
+      function findArea(){
+        return (Math.PI*Math.pow(this.radius,2));
+      }
+      function findPerimeter(){
+        return (2*Math.PI*this.radius);
+      }
+      function Circle(x,y,r){
+        this.cx=x;
+        this.cy=y;
+        this.radius=r;
+        this.getArea=findArea;
+        this.getPerimeter=findPerimeter;
+      }
+      var c=new Circle(20,30,40);
+      document.write("Perimeter of the circle is "+c.getPerimeter());
+    </script>
+</body>
+</html>

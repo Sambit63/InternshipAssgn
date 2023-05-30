@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Circle Area Perimeter</title>
+  </head>
+  <body>
+    <h1>Circle info : </h1>
+    <div id="circle-info"></div>
+    <script>
+      function Circle(x, y, r) {
+        this.x = x;
+        this.y = y;
+        this.r = r;
+      }
+
+      Circle.prototype.getArea = function() {
+        return Math.PI * this.r * this.r;
+      };
+
+      Circle.prototype.getPerimeter = function() {
+        return 2 * Math.PI * this.r;
+      };
+
+      const myCircle = new Circle(5, 9, 10);
+      const circleInfo = document.getElementById("circle-info");
+      circleInfo.innerHTML += `<p>Center: (${myCircle.x}, ${myCircle.y})</p>`;
+      circleInfo.innerHTML += `<p>Radius: ${myCircle.r}</p>`;
+      circleInfo.innerHTML += `<p>Area: ${myCircle.getArea()}</p>`;
+      circleInfo.innerHTML += `<p>Perimeter: ${myCircle.getPerimeter()}</p>`;
+    </script>
+  </body>
+</html>

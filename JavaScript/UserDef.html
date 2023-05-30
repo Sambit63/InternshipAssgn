@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserDefined</title>
+</head>
+<body>
+    <script>
+        var person = {
+             firstName:"John",
+             lastName:"Herry",
+             age: 25,
+             skinColor:"White",
+             fullname: function()
+             {
+                return (this.firstName+" "+this.lastName);
+             }
+          };
+        // Accessing properties of person object.
+           document.write("First name: " +person.firstName+ "<br>");
+           document.write("Last name: " +person.lastName+ "<br>");
+           document.write("Age: " +person.age+ "<br>");
+           document.write("Skin color: " +person.skinColor+ "<br>");
+           document.write("The full name of the person is "+person.fullname()+"<br>");
+           
+     </script>
+</body>
+</html>

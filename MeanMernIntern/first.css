@@ -1,0 +1,20 @@
+.Sbox{
+    color: brown;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:rgba(255, 0, 0, 0.1);
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+.myspan{
+    color: rgb(255, 72, 0);
+    background-color: azure;
+}
+.para{
+    color:blue;
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px dashed blue;
+    border-radius: 10px ;
+}

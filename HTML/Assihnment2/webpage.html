@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nested Table Layout</title>
+	<style>
+        .container {
+		margin: 0 auto;
+		max-width: 900px;
+		padding: 10px;
+	}
+	
+	.left-column {
+		background-color: #C2D69B;
+		padding: 10px;
+		width: 150px;
+        padding: 10px;
+	}
+	
+	.right-column {
+		padding: 10px;
+		width: 150px;
+	}
+	
+	.content {
+		
+		width: 600px;
+	}
+	
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+    .talign{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+	<div class="container">
+		<table border="1" cellspacing="0" align="center" cellpadding="2">
+				<tr>
+                    <td class="left-column"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoX_QQWm1DumeV7lYn8dgyaCxu9dZRFjj83mm6lWFIvA&s" alt="Error"></td>
+                    <td class="content" colspan="2"><font face="Arial,sans-serif" size="5"><b>Silicon Institute Of Technology</b></font><br>Silicon Hills,Bhubaneswar 751024</td>
+                </tr>
+                <tr>
+                    <td valign="top" class="left-column">
+                        <table border="1" cellspacing="0" width="150" cellpadding="2">
+                            <tr><td align="center"><a href="#">HOME</a></td></tr>
+                            <tr><td align="center"><a href="#">ABOUT US</a></td></tr>
+                            <tr><td align="center"><a href="#">ACADEMICS</a></td></tr>
+                            <tr><td align="center"><a href="#">RESEARCH</a></td></tr>
+                            <tr><td align="center"><a href="#">PLACEMENT</a></td></tr>
+                            <tr><td align="center"><a href="#">CAMPUS LIFE</a></td></tr>
+                            <tr><td align="center"><a href="#">SYLLABUS</a></td></tr>
+                            <tr><td align="center"><a href="#">ADMISSION</a></td></tr>
+                            <tr><td align="center"><a href="#">CONTACT US</a></td></tr>
+                            <tr><td align="center"><a href="#">FEEDBACK</a></td></tr>
+                        </table>
+                    </td>
+                    <td class="content">
+                        <table border="1" cellspacing="0" cellpadding="2">
+                            <tr>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeVdJjs0mOT6SbnC_53FSjZBesiPZ7QN_fA&usqp=CAU" width="1000" alt=""></td>
+                                <td>Welcome to Silicon Institute of Technology. We are committed to be the best academic services to our Learners throught
+                                 continuous initiative practices by developing a team of highly qualified and motivated Lecturers, providing state-of-the-art 
+                                 Laboratories and having excellent Library facilities and ensuring availability of textbooks and their utilization</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <table border="1" cellspacing="0" align="center" cellpadding="2">
+                                        <tr>
+                                                <td>
+                                                    <img src="https://silicon.ac.in/wp-content/uploads/2021/05/Header-Photo-1-1-1.jpg" alt="Error">
+                                                    <p class="talign">Silicon students have constantly performed and received Gold Medals at
+                                                        the University level almost every year.<br><a href="#">Read More...</a></p>
+                                                </td>
+                                                <td>
+                                                    <img src="https://silicon.ac.in/wp-content/uploads/2023/03/2.-Orion-Sports.jpg" alt="Sports">
+                                                    <p class="talign">Our sports club has produced good teams in popular sports like Football,Volleyball
+                                                    Basketball,Cricket,and others,both for Boys and Girls.<br><a href="#">Read More...</a>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <img src="https://silicon.ac.in/wp-content/uploads/2023/02/2.-Blood-donation-camp.jpg" alt="Error">
+                                                    <p class="talign">Silicon students also engage themselves in activities related to social causes.
+                                                    Blood donation camps are organized every year by Red Cross Society.<br>
+                                                    <a href="#">Read More...</a>
+                                                    </p>
+                                                </td>
+                                        </tr>
+                                        </table>
+                                    </td>
+                                 </tr>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                    <td class="right-column">
+                        <table border="1" cellspacing="0" width="150" cellpadding="2">
+                            <form method="post" name="myfrm" action="process.php">
+                                <tr><td>Quick Contact</td></tr>
+                                <tr><td>Name:<br><input type="text"></td></tr>
+                                <tr><td>Email:<br><input type="text"></td></tr>
+                                <tr><td>Phone:<br><input type="text"></td></tr>
+                                <tr><td>Message:<br><textarea rows="10" cols="20"></textarea></td></tr>
+                                <tr><td align="center"><button type="submit">SUBMIT</button></td></tr>
+                            </form>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left-column" colspan="3" align="center"><p>&copy; Copyright 2017,Silicon Institute of Technology,Bhubaneswar</p></td>
+                </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+<!ELEMENT students (student+)>
+<!ELEMENT student (sic,name,branch,cgpa)>
+<!ELEMENT sic (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT cgpa (#PCDATA)>
+<!ATTLIST student regno CDATA #REQUIRED>
+<!ATTLIST branch brcode CDATA #REQUIRED>
+]>
+<students>
+  <student regno="2001209365">
+    <sic>20becd13</sic>
+    <name>Sambit Kumar Sahoo</name>
+    <branch brcode="2">ECE</branch>
+    <cgpa>7.88</cgpa>
+  </student>
+  <student regno="2001209366">
+    <sic>20becd14</sic>
+    <name>Ansh Kumar Sahoo</name>
+    <branch brcode="1">CSE</branch>
+    <cgpa>8.8</cgpa>
+  </student>
+</students> 
