@@ -1,0 +1,55 @@
+{
+  "myData": [
+    {
+      "id": 1685679939216,
+      "email": "sambitsahoo759@gmail.com",
+      "password": "12",
+      "name": "sam",
+      "phone": "7077"
+    },
+    {
+      "id": 1685690461569,
+      "email": "sambitsahoo759@gmail.com",
+      "password": "12",
+      "name": "sam",
+      "phone": "7077"
+    },
+    {
+      "id": 1685694558639,
+      "email": "sambit@gmail.com",
+      "password": "123",
+      "name": "prince",
+      "phone": "9348"
+    }
+  ],
+  "myrecepie": [
+    {
+      "id": 1685679981408,
+      "foodName": "dalfry",
+      "foodPrice": "432",
+      "foodUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/02/dal-fry.jpg",
+      "foodDesc": "dalfry is an Indian Item"
+    },
+    {
+      "id": 1685690880441,
+      "foodName": "Biryani",
+      "foodPrice": "345",
+      "foodUrl": "https://media.istockphoto.com/id/488481490/photo/fish-biryani-with-basmati-rice-indian-food.jpg?s=612x612&w=0&k=20&c=9xEw3VOQSz9TP8yQr60L47uExyKF9kogRhQdlghlC00=",
+      "foodDesc": "Biryani is Delicious"
+    },
+    {
+      "id": 1685694667568,
+      "foodName": "Pizza",
+      "foodPrice": "230",
+      "foodUrl": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=2000",
+      "foodDesc": "Pizza is rounded in size can eat in triangle shape"
+    },
+    {
+      "id": 1685694778680,
+      "foodName": "Burger",
+      "foodPrice": "230",
+      "foodUrl": "https://media.istockphoto.com/id/1309352410/photo/cheeseburger-with-tomato-and-lettuce-on-wooden-board.jpg?s=612x612&w=0&k=20&c=lfsA0dHDMQdam2M1yvva0_RXfjAyp4gyLtx4YUJmXgg=",
+      "foodDesc": "Burger is rounded in size for in layer manner having different type of food"
+    }
+  ]
+}
